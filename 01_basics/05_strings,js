@@ -1,0 +1,46 @@
+const name = "sandesh"
+const value = 24
+
+console.log(name + value + " content");
+
+//String interpolation
+
+console.log(`My name is ${name} and roll number is ${value}`);
+
+let gameName = new String('Sandesh Pawar')
+
+// console.log(typeof name);
+// console.log(typeof gameName);
+
+// console.log(gameName.toUpperCase());
+
+// console.log(gameName.split('s'));
+
+// console.log(gameName.slice(2,5));
+// console.log(gameName.sub);
+
+// The substring() method swaps its two arguments if indexStart is greater than indexEnd , 
+// meaning that a string is still returned. The slice() method returns an empty string if this is the case.
+
+const url = "https://sandesh.com/test%20data"
+
+// console.log(url.replace('%20', '-'));
+
+// console.log(url.includes('sandesh'));
+
+// console.log(url.split('s'));
+// console.log(url.split('s', 2));
+
+// console.log(url.bold);
+
+// console.log(url.charCodeAt(5));
+
+// console.log(url.concat(' ', ' # ', '^ '));
+
+// console.log(url.match('https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)'));
+
+// console.log(url.padEnd(100, '.'));
+
+// console.log(url.repeat(0));
+
+// console.log(url.);
